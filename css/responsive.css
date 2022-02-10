@@ -1,0 +1,183 @@
+/*Estilo para tablet*/
+@media only screen and (min-width:828px) and (max-width:1009px) {
+/*Home*/
+	.qualidade:after {
+		right: 66px;
+	}
+
+	.qualidade_lista li {
+		padding: 0 10px;
+	}
+
+/*Footer*/
+	.footer_redes ul li a {
+		padding: 5px;
+	}
+
+	.footer_redes ul li a img {
+		width: 26px;
+		height: 26px;
+	}
+
+/*produtos*/
+	.produtos-item h2 {
+		top: -150px;
+	}
+
+	.produto-icone {
+		padding: 41px 0;
+	}
+
+	.produto-info p {
+		color: #fff;
+		font-size: 14px;
+		line-height: 20px;
+		padding: 20px 30px;
+		height: 122px;
+	}
+
+	.produto-info ul li {
+		width: 181px;
+		height: 49px;
+	}
+}
+
+/*Estilo para smartphone*/
+@media only screen and (max-width:817px) {
+/*Header*/
+	.header {
+		position: relative;
+	}
+
+	.header img {
+		margin: 0 auto 20px auto;
+	}
+
+	.header_menu {
+		text-align:center;
+	}
+
+	.header_menu ul li {
+        margin: 0;
+    }
+
+    .header_menu ul li a {
+		width: 136px;
+		margin: 5px;
+		float: left;;
+		display: block;
+		border: 4px solid #000;
+	}
+	
+	.header_menu ul li a:hover {
+		border-color:#fff;
+	}
+
+	.header_menu ul li a.menu-ativo {
+        border-color:#FFF;
+    }
+/*Home*/
+	.introducao {
+		margin-top:0px;
+		padding-top: 60px;
+		background: url("../img/bg-mobile.jpg") no-repeat center;
+		background-size: cover;
+	}
+
+	.introducao h1{
+		font-size:36px;
+	}
+
+	.produtos_lista li p {
+		padding-bottom: 20px;
+	}
+
+	.call {
+		padding-top: 10px;
+	}
+
+	.qualidade:after {
+		display: none;
+	}
+
+	.portfolio ul li img {
+		margin-bottom: 20px;
+	}
+
+	/*Sobre*/
+	.introducao-interna{
+		margin-top: 0px;
+	}
+
+	.missao-sobre p {
+		padding-right: 0px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.missao-sobre ul li {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	/*produtos*/
+	.produtos-item h2 {
+		top: -105px;
+		margin-bottom: -68;
+	}
+
+	.produto-icone {
+		padding: 41px 0;
+		margin-bottom: 20px;
+	}
+
+	.produto-info p {
+		color: #fff;
+		font-size: 14px;
+		line-height: 20px;
+		padding: 20px 30px;
+		height: 122px;
+	}
+
+	.produto-info ul li {
+		background: #fec63e ;
+		text-transform: uppercase;
+		font-size: 18px;
+		line-height: 20px;
+		float: left;
+		width: 181px;
+		height: 49px;
+		text-align: center;
+		padding-top: 16px;
+		font-weight: bold;
+	}
+
+	.produto-info p {
+		color: #fff;
+		font-size: 14px;
+		line-height: 20px;
+		height: auto;
+	}
+
+	.produto-info ul li {
+		width: 149px;
+		height: 49px;
+		font-size: 14px;
+		line-height: 20px;
+		padding-top: 15px;
+	}
+
+	/*Orçamento*/
+	.form {
+		padding-right: 0;
+	}
+
+	.orcamento-dados ul {
+		padding-right: 0;
+	}
+
+	/*Contato*/
+	.contato-form {
+		padding-right: 0;
+	}
+}
